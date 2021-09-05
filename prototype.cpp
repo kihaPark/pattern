@@ -123,5 +123,5 @@ int main()
     "prototype" : "goblin warrior",
     "attack" : ["short bow"]
 }
- */
+*/
 

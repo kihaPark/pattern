@@ -22,12 +22,13 @@ ParticleSystem particleSys;
 class Effect
 {
 public:
-    Effect() { init(); }
     virtual ~Effect() = default;
 
     virtual void activate() = 0;
 
 protected:
+    Effect() { init(); }
+
     void alarmText(string_view type, string_view content) {
         cout << type << ": " << content << endl; // alarm->notice();
     }
